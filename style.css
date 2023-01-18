@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 100vh;
+}
+
+input,
+button {
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+input {
+  margin-right: 1rem;
+}
